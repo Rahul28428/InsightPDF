@@ -38,7 +38,7 @@ InsightPDF is an interactive Streamlit application that allows users to chat wit
 
 1. Run the Streamlit application:
     ```sh
-    streamlit run app.py
+    streamlit run InsightPDF.py
     ```
 
 2. Open your web browser and go to `http://localhost:8501`.
@@ -49,7 +49,7 @@ InsightPDF is an interactive Streamlit application that allows users to chat wit
 
 ## Project Structure
 
-- `app.py`: Main application script for running the Streamlit interface.
+- `InsightPDF.py`: Main application script for running the Streamlit interface.
 - `requirements.txt`: List of required Python packages.
 - `.env`: Environment file to store the Google API key.
 
