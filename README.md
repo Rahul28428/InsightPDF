@@ -7,9 +7,13 @@ Demo : <a href="https://drive.google.com/file/d/1RFtbeIY3mJmpIRtzu7JbXuLRgA8wL9P
 <br>
 ## Features
 
-- **Interactive PDF Chat**: Users can ask questions about the content of their PDF files and receive detailed, context-aware responses.
-- **Advanced AI Integration**: Utilizes Google Generative AI embeddings and FAISS for accurate and efficient information retrieval.
-- **User-Friendly Interface**: Easy-to-use interface built with Streamlit, allowing seamless PDF upload and query processing.
+
+- **PDF Upload**: Upload multiple PDF files to analyze.
+- **Text Extraction**: Extract text from uploaded PDF files.
+- **Text Chunking**: Split extracted text into manageable chunks.
+- **Text Embeddings**: Generate embeddings for text chunks using Google Generative AI.
+- **Conversation History**: Maintain a chat history of user interactions.
+- **Question Answering**: Answer user questions u
 
 ## Installation
 
@@ -41,7 +45,7 @@ Demo : <a href="https://drive.google.com/file/d/1RFtbeIY3mJmpIRtzu7JbXuLRgA8wL9P
 
 1. Run the Streamlit application:
     ```sh
-    streamlit run InsightPDF.py
+    streamlit run app.py
     ```
 
 2. Open your web browser and go to `http://localhost:8501`.
@@ -52,9 +56,15 @@ Demo : <a href="https://drive.google.com/file/d/1RFtbeIY3mJmpIRtzu7JbXuLRgA8wL9P
 
 ## Project Structure
 
-- `InsightPDF.py`: Main application script for running the Streamlit interface.
+- `app.py`: Main application script for running the Streamlit interface.
 - `requirements.txt`: List of required Python packages.
 - `.env`: Environment file to store the Google API key.
+
+## Technologies Used
+- Streamlit: Frontend framework for interactive web applications.
+- PyPDF2: PDF processing library for Python.
+- LangChain: Python library for natural language processing tasks.
+- Google Generative AI: AI models for text embeddings and conversational AI.
 
 ## Contributing
 
