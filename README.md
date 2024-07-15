@@ -3,7 +3,7 @@
 InsightPDF is an interactive Streamlit application that allows users to chat with their PDF documents using Google Generative AI. This project enhances document interaction and information retrieval by providing detailed answers to user queries based on the content of the uploaded PDFs.
 <br>
 <br>
-Demo : <a href="https://drive.google.com/file/d/1RFtbeIY3mJmpIRtzu7JbXuLRgA8wL9Pk/view?usp=sharing"> Link </a>
+Demo : <a href="https://www.loom.com/share/3ea3c24f0cfb477d90a1f52650e4048e?sid=c413fdae-8975-4222-9b75-18b778ac2a2a"> Link </a>
 <br>
 ## Features
 
